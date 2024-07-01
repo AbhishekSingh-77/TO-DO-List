@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>TO-DO LIST</h1>
+        <ul>
+            <li type="square">A to-do list can help us stay organized, productive, and motivated in our personal and
+                professional
+                life.</li>
+            <li type="circle">In this to-do list, you can create a list of tasks you want to complete.
+            <li type="circle">Once a task is done, you can delete it individually.</li>
+            <li type="circle">Alternatively, you can mark a task as ‘on hold’ by crossing it out if you don’t want to
+                delete it.</li>
+            <li type="square">Enjoy the simplicity and effectiveness of managing your tasks!” </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="newtask">
+            <input type="text" placeholder="Task to be done..">
+            <button id="push">ADD</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
